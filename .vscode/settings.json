@@ -1,0 +1,27 @@
+{
+    "cSpell.enableFiletypes": [
+        "properties"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.fixAll": ["source.unusedImports"],
+    "python.pythonPath": "C:\\Users\\christian.barbosa\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\fastapiwithtdd-XzNUNfOw-py3.12\\Scripts\\python.exe",
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}/store"
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.cache": true,
+        "**/.coverage": true,
+        "**/.coverage.*": true,
+        "**/.hypothesis": true,
+        "**/.mypy_cache": true,
+        "**/.nox": true,
+        "**/.pytest_cache": true,
+        "**/.ruff_cache": true,
+        "**/.tox": true
+    },
+    "workbench.colorCustomizations": {},
+    "workbench.iconTheme": "material-icon-theme",
+    "tabnine.experimentalAutoImports": true
+}

@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-from store.core.config import settings
+
+from core.config import settings
 
 
 class App(FastAPI):
