@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  db:
+    image: 'zcube/bitnami-compat-mongodb'
+    ports:
+      - 27017:27017
+    restart: on-failure
+    environment:
+      - MONGODB_USERNAME=restadmin
+      - MONGODB_PASSWORD=SuaSenhaForte
+      - MONGODB_DATABASE=store
+      - MONGODB_ADVERTISED_HOSTNAME=localhost
+      - ALLOW_EMPTY_PASSWORD=no
+    command: --auth --setParameter=authenticationMechanisms=SCRAM-SHA-256
