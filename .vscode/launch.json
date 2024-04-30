@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python with PYTHONPATH",
+            "type": "python",
+            "request": "launch",
+            "python": "${env:PYTHON}",
+            "program": "${workspaceFolder}/main.py",  // Replace with your main script path
+            "args": [],
+            "env": {
+                "PYTHONPATH": "./store"  // Set the desired PYTHONPATH value
+            },
+            "console": "integratedTerminal"
+        }
+    ]
+}

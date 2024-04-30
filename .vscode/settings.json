@@ -4,7 +4,7 @@
     ],
     "python.analysis.autoImportCompletions": true,
     "python.analysis.fixAll": ["source.unusedImports"],
-    "python.pythonPath": "C:\\Users\\christian.barbosa\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\fastapiwithtdd-XzNUNfOw-py3.12\\Scripts\\python.exe",
+    "python.poetryPath": "C:\\Users\\christian.barbosa\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\fastapiwithtdd-XzNUNfOw-py3.12\\Scripts\\python.exe",
     "terminal.integrated.env.windows": {
         "PYTHONPATH": "${workspaceFolder}/store"
     },

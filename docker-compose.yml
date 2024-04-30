@@ -7,9 +7,5 @@ services:
       - 27017:27017
     restart: on-failure
     environment:
-      - MONGODB_USERNAME=restadmin
-      - MONGODB_PASSWORD=SuaSenhaForte
-      - MONGODB_DATABASE=store
       - MONGODB_ADVERTISED_HOSTNAME=localhost
-      - ALLOW_EMPTY_PASSWORD=no
-    command: --auth --setParameter=authenticationMechanisms=SCRAM-SHA-256
+      - ALLOW_EMPTY_PASSWORD=yes
